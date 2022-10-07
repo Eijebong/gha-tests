@@ -1,0 +1,7 @@
+name: GitHub Actions Test
+on: [push]
+jobs:
+  nproc:
+    runs-on: ubuntu-latest
+    steps:
+      - run: nproc
